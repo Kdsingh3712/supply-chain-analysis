@@ -1,41 +1,21 @@
 # Supply Chain Performance Analysis
+### Excel | SQL | Power BI | 180,000+ Records | 5 Global Regions
 
-## Project Overview
-End-to-end supply chain analysis using a real-world dataset of 180,000+ transactional records. 
-The goal was to identify operational inefficiencies, delivery performance issues, and profitability 
-gaps across global markets using Excel pivot tables and data analysis techniques.
+## Overview
+End-to-end supply chain analysis uncovering a systemic 55% late delivery rate, 
+$73.6M revenue base with thin 9–12% margins on top sellers, and a product mix 
+imbalance across 5 global regions. Delivered actionable recommendations on 
+logistics, pricing, and product mix using Excel, SQL, and Power BI.
 
-## Tools Used
-- Microsoft Excel (Pivot Tables, Data Cleaning, Dashboarding)
-
-## Dataset
-- Source: DataCo Global Supply Chain Dataset
-- Size: 180,000+ records
-- Fields: Sales, Delivery Status, Profit, Product Category, Region, Shipping Mode
+## Dashboard Preview
+![Supply Chain Dashboard](dashboard.png)
 
 ## Key Findings
-
-1. **55% Systemic Late Delivery Rate** — delays are consistent across all 5 global regions 
-(Africa, Europe, LATAM, Asia-Pacific, USCA), confirming the issue is in centralized logistics 
-processes, not regional operations
-
-2. **High Revenue Categories Have Thin Margins** — top sellers like Fishing ($6.9M), Cleats 
-and Cardio Equipment operate at only 9–12% profit margin despite driving the majority of revenue
-
-3. **Product Mix Imbalance** — Men's Clothing generates high volume at only 4–6% margin while 
-Soccer and Golf Bags achieve 14–17% margin at low volume — more profitable products are being underscaled
-
-4. **Late Deliveries Have Minimal Impact on Per-Order Profit** — the real profitability problem 
-is pricing and product mix, not delivery delays
-
-5. **LATAM Outliers** — Baseball & Softball (59.6% delay) and Boxing & MMA (59%) show 
-significantly higher delay rates than other categories and require specific investigation
-
-## Recommendations
-1. Audit centralized logistics and fulfillment processes to address the systemic 55% delay rate
-2. Review pricing strategy for high-revenue low-margin categories to improve overall profitability
-3. Scale high-margin categories like Soccer and Golf Bags to improve product mix
-4. Investigate LATAM-specific outliers for targeted operational improvements
+- **55% late delivery rate** — consistent across all regions, confirming a centralized logistics issue
+- **Fishing ($6.9M revenue) operates at only 9–12% margin** despite being the top seller
+- **Soccer & Golf Bags (14–17% margin)** are underscaled vs low-margin high-volume categories
+- **Late vs on-time orders show almost identical profit** — the real problem is pricing, not delays
+- **LATAM outliers** — Baseball & Softball (59.6%) and Boxing & MMA (59%) need investigation
 
 ## Status
-Excel analysis complete. SQL analysis and Power BI dashboard in progress.
+ Excel |  SQL |  Power BI |  GitHub
